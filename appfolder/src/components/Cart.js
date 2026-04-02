@@ -83,7 +83,7 @@ const Cart = () => {
                 <div className="inCart__buttons--form">
                   <h3>Ingrese sus datos</h3>
                   <p>Nombre</p>
-                  <input id="orderName" placeholder="Nombre" maxLength="35" type="text" required></input>
+                  <input id="orderName" placeholder="Nombre" maxLength="30" type="text" required></input>
                   <p>Teléfono</p>
                   <input id="orderPhone" placeholder="Teléfono" maxLength="15" type="tel" required></input>
                   <p>Mail</p>
