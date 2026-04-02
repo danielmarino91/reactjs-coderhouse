@@ -83,11 +83,11 @@ const Cart = () => {
                 <div className="inCart__buttons--form">
                   <h3>Ingrese sus datos</h3>
                   <p>Nombre</p>
-                  <input id="orderName" placeholder="Nombre" maxLength="20" type="text" required></input>
+                  <input id="orderName" placeholder="Nombre" maxLength="35" type="text" required></input>
                   <p>Teléfono</p>
                   <input id="orderPhone" placeholder="Teléfono" maxLength="15" type="tel" required></input>
                   <p>Mail</p>
-                  <input id="orderMail" placeholder="Mail" maxLength="20" type="email" required></input>
+                  <input id="orderMail" placeholder="Mail" maxLength="35" type="email" required></input>
                 </div>
                 <p className="inCart__buttons--total">Total: <span>{currency.format(total)}</span></p>
                 <hr></hr>
